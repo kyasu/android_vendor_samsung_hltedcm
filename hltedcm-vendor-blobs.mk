@@ -301,11 +301,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/samsung/hltedcm/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
     vendor/samsung/hltedcm/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
+    vendor/samsung/hltedcm/proprietary/etc/clatd.conf:system/etc/clatd.conf \
+    vendor/samsung/hltedcm/proprietary/etc/flp.conf:system/etc/flp.conf \
+    vendor/samsung/hltedcm/proprietary/etc/gps.conf:system/etc/gps.conf \
+    vendor/samsung/hltedcm/proprietary/etc/sap.conf:system/etc/sap.conf \
+    vendor/samsung/hltedcm/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/samsung/hltedcm/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/samsung/hltedcm/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/samsung/hltedcm/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+    vendor/samsung/hltedcm/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-    vendor/samsung/hltedcm/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/samsung/hltedcm/proprietary/etc/sec_config:system/etc/sec_config \
     vendor/samsung/hltedcm/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
