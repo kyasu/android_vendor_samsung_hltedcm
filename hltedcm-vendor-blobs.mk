@@ -315,6 +315,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hltedcm/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/samsung/hltedcm/proprietary/etc/sec_config:system/etc/sec_config \
     vendor/samsung/hltedcm/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/samsung/hltedcm/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
