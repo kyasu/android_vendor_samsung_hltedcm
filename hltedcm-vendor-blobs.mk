@@ -301,10 +301,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/samsung/hltedcm/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
     vendor/samsung/hltedcm/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
-    vendor/samsung/hltedcm/proprietary/etc/clatd.conf:system/etc/clatd.conf \
-    vendor/samsung/hltedcm/proprietary/etc/flp.conf:system/etc/flp.conf \
-    vendor/samsung/hltedcm/proprietary/etc/gps.conf:system/etc/gps.conf \
-    vendor/samsung/hltedcm/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/samsung/hltedcm/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/hltedcm/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/samsung/hltedcm/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
@@ -372,7 +368,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hltedcm/proprietary/etc/wifi/bcmdhd_ibss.bin:system/etc/wifi/bcmdhd_ibss.bin \
     vendor/samsung/hltedcm/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
     vendor/samsung/hltedcm/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
-    vendor/samsung/hltedcm/proprietary/etc/wifi/cred.conf:system/etc/wifi/cred.conf \
     vendor/samsung/hltedcm/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
-    vendor/samsung/hltedcm/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
-    vendor/samsung/hltedcm/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf
+    vendor/samsung/hltedcm/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt
