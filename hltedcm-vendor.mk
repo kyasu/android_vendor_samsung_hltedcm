@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hltedcm/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/samsung/hltedcm/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/samsung/hltedcm/proprietary/bin/rfs_access:system/bin/rfs_access \
-    vendor/samsung/hltedcm/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/hltedcm/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/hltedcm/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/samsung/hltedcm/proprietary/bin/time_daemon:system/bin/time_daemon \
@@ -237,11 +236,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hltedcm/proprietary/lib/libmmqjpeg_codec.so:system/lib/libmmqjpeg_codec.so \
     vendor/samsung/hltedcm/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/samsung/hltedcm/proprietary/lib/libqomx_jpegenc.so:system/lib/libqomx_jpegenc.so \
-    vendor/samsung/hltedcm/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-    vendor/samsung/hltedcm/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/samsung/hltedcm/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
-    vendor/samsung/hltedcm/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-    vendor/samsung/hltedcm/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
+    vendor/samsung/hltedcm/proprietary/vendor/lib/libsec-ril.so:system/vendor/lib/libsec-ril.so \
     vendor/samsung/hltedcm/proprietary/lib/libsensirion_h_11.so:system/lib/libsensirion_h_11.so \
     vendor/samsung/hltedcm/proprietary/lib/libvdis.so:system/lib/libvdis.so \
     vendor/samsung/hltedcm/proprietary/vendor/firmware/bcm4335_V0105.0486.hcd:system/vendor/firmware/bcm4335_V0105.0486.hcd \
