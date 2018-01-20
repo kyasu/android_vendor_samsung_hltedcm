@@ -1,5 +1,5 @@
 # Copyright (C) 2016 The CyanogenMod Project
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2017-2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -47,8 +47,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hltedcm/proprietary/etc/felica/mfc_push.cfg:system/etc/felica/mfc_push.cfg \
     vendor/samsung/hltedcm/proprietary/etc/felica/mfm.cfg:system/etc/felica/mfm.cfg \
     vendor/samsung/hltedcm/proprietary/etc/felica/mfs.cfg:system/etc/felica/mfs.cfg \
-    vendor/samsung/hltedcm/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
-    vendor/samsung/hltedcm/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
     vendor/samsung/hltedcm/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/samsung/hltedcm/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/samsung/hltedcm/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
@@ -223,8 +221,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hltedcm/proprietary/lib/libchromatix_s5k6b2yx_vt_hd.so:system/lib/libchromatix_s5k6b2yx_vt_hd.so \
     vendor/samsung/hltedcm/proprietary/lib/libchromatix_s5k6b2yx_zslshot.so:system/lib/libchromatix_s5k6b2yx_zslshot.so \
     vendor/samsung/hltedcm/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
-    vendor/samsung/hltedcm/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/samsung/hltedcm/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/samsung/hltedcm/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/samsung/hltedcm/proprietary/lib/libmmcamera2_stats_algorithm.so:system/lib/libmmcamera2_stats_algorithm.so \
     vendor/samsung/hltedcm/proprietary/lib/libmmcamera_cac2_lib.so:system/lib/libmmcamera_cac2_lib.so \
@@ -239,6 +235,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libsec-ril.so:system/vendor/lib/libsec-ril.so \
     vendor/samsung/hltedcm/proprietary/lib/libsensirion_h_11.so:system/lib/libsensirion_h_11.so \
     vendor/samsung/hltedcm/proprietary/lib/libvdis.so:system/lib/libvdis.so \
+    vendor/samsung/hltedcm/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
+    vendor/samsung/hltedcm/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw \
     vendor/samsung/hltedcm/proprietary/vendor/firmware/bcm4335_V0105.0486.hcd:system/vendor/firmware/bcm4335_V0105.0486.hcd \
     vendor/samsung/hltedcm/proprietary/vendor/lib/C13QL_libchromatix_s5k3l2xx_vt.so:system/vendor/lib/C13QL_libchromatix_s5k3l2xx_vt.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/C13QL_libchromatix_s5k3l2xx_vt_hd.so:system/vendor/lib/C13QL_libchromatix_s5k3l2xx_vt_hd.so \
@@ -248,7 +246,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hltedcm/proprietary/vendor/lib/D13QL_libchromatix_s5k3l2xx_vt_hd.so:system/vendor/lib/D13QL_libchromatix_s5k3l2xx_vt_hd.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/D13QS_libchromatix_imx135_vt.so:system/vendor/lib/D13QS_libchromatix_imx135_vt.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/D13QS_libchromatix_imx135_vt_hd.so:system/vendor/lib/D13QS_libchromatix_imx135_vt_hd.so \
-    vendor/samsung/hltedcm/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -266,9 +263,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+    vendor/samsung/hltedcm/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
-    vendor/samsung/hltedcm/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
@@ -283,8 +280,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
-    vendor/samsung/hltedcm/proprietary/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so \
-    vendor/samsung/hltedcm/proprietary/vendor/lib/libaptXScheduler.so:system/vendor/lib/libaptXScheduler.so \
+    vendor/samsung/hltedcm/proprietary/vendor/lib/libaptX_encoder.so:system/vendor/lib/libaptX_encoder.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
@@ -312,6 +308,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
+    vendor/samsung/hltedcm/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
+    vendor/samsung/hltedcm/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
@@ -350,17 +348,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
+    vendor/samsung/hltedcm/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
+    vendor/samsung/hltedcm/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libscve_stub.so:system/vendor/lib/libscve_stub.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
+    vendor/samsung/hltedcm/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
-    vendor/samsung/hltedcm/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-    vendor/samsung/hltedcm/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
