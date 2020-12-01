@@ -232,6 +232,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libmmqjpeg_codec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpeg_codec.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libqomx_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_core.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
+    vendor/samsung/hltedcm/proprietary/vendor/lib/libsec-ril.dcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsec-ril.dcm.so \
+    vendor/samsung/hltedcm/proprietary/vendor/lib/libsec-ril.kdi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsec-ril.kdi.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libsec-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsec-ril.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libsensirion_h_11.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensirion_h_11.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/libvdis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvdis.so \
